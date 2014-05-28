@@ -1,0 +1,3 @@
+[submodule "tools/GCViewer"]
+	path = tools/GCViewer
+	url = git@github.com:chewiebug/GCViewer.git
