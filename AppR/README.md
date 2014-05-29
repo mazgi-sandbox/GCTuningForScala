@@ -31,11 +31,11 @@ An Application GC Tuning
 -server \
 -Xms48G \
 -Xmx48G \
--XX:NewRatio=1 \
--XX:SurvivorRatio=8 \
--XX:PermSize=512M \
--XX:MaxPermSize=512M \
--XX:MaxTenuringThreshold=31 \
+-XX:NewSize=32G \
+-XX:SurvivorRatio=6 \
+-XX:PermSize=128M \
+-XX:MaxPermSize=128M \
+-XX:MaxTenuringThreshold=512 \
 -XX:+DisableExplicitGC \
 -XX:+UseConcMarkSweepGC \
 -XX:+CMSClassUnloadingEnabled \
